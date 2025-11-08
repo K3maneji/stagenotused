@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StageNotUsed - Профессиональное концертное оборудование</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+        <div class="loader-logo">StageNotUsed</div>
+        <div class="loader-text">Загрузка концертного оборудования...</div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">StageNotUsed</div>
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link" data-target="home">Бренды</a></li>
+                    <li><a href="#" class="nav-link" data-target="catalog">Весь каталог</a></li>
+                    <li><a href="#" class="nav-link" data-target="about">О нас</a></li>
+                    <li><a href="#" class="nav-link" data-target="contacts">Контакты</a></li>
+                    <li><a href="#" class="nav-link" data-target="feedback">Обратная связь</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <video autoplay muted loop class="video-background" id="background-video">
+            <source src="img/IMG_3439.MP4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        
+        <div class="hero-content">
+            <h1>Профессиональное концертное оборудование</h1>
+            <p>Выберите бренд для просмотра каталога оборудования</p>
+            <div class="brands-container">
+                <div class="brands-grid">
+                    <div class="brand-card" data-brand="pr-lighting-ltd">
+                        <div class="brand-logo">
+                            <img src="./img/PR LIGHTING.png" alt="PR LIGHTING LTD">
+                        </div>
+                        <h3 class="brand-name">PR LIGHTING LTD</h3>
+                    </div>
+                    <div class="brand-card" data-brand="martin">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/2575fc/ffffff?text=M" alt="Martin">
+                        </div>
+                        <h3 class="brand-name">Martin</h3>
+                    </div>
+                    <div class="brand-card" data-brand="robert-juliat">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/ff3366/ffffff?text=RJ" alt="Robert Juliat">
+                        </div>
+                        <h3 class="brand-name">Robert Juliat</h3>
+                    </div>
+                    <div class="brand-card" data-brand="vari-lite">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/6a11cb/ffffff?text=VL" alt="Vari-Lite">
+                        </div>
+                        <h3 class="brand-name">Vari-Lite</h3>
+                    </div>
+                    <div class="brand-card" data-brand="et-c">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/2575fc/ffffff?text=ETC" alt="ETC">
+                        </div>
+                        <h3 class="brand-name">ETC</h3>
+                    </div>
+                    <div class="brand-card" data-brand="ayrton">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/ff3366/ffffff?text=A" alt="Ayrton">
+                        </div>
+                        <h3 class="brand-name">Ayrton</h3>
+                    </div>
+                    <div class="brand-card" data-brand="chroma-q">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/6a11cb/ffffff?text=CQ" alt="Chroma-Q">
+                        </div>
+                        <h3 class="brand-name">Chroma-Q</h3>
+                    </div>
+                    <div class="brand-card" data-brand="glp">
+                        <div class="brand-logo">
+                            <img src="https://via.placeholder.com/80x80/2575fc/ffffff?text=GLP" alt="GLP">
+                        </div>
+                        <h3 class="brand-name">GLP</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <div class="catalog-header">
+                <h2 id="catalog-title">Каталог оборудования</h2>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Поиск оборудования...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="products-grid" id="products-container">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <div class="about-content">
+                <p>StageNotUsed - ведущий поставщик профессионального концертного оборудования с 2010 года. Мы работаем с крупнейшими мировыми брендами, чтобы предложить нашим клиентам только лучшее оборудование для сцены.</p>
+                <p>Наша команда состоит из опытных специалистов, которые сами имеют опыт работы в индустрии развлечений. Мы понимаем потребности наших клиентов и помогаем подобрать оптимальное решение для любого мероприятия.</p>
+                <p>От небольших клубов до стадионов мирового уровня - мы обеспечиваем оборудованием мероприятия любого масштаба. Наша цель - сделать каждое выступление незабываемым с помощью качественного света и звука.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts-content">
+                <p>Свяжитесь с нами для получения консультации или оформления заказа. Наши специалисты всегда готовы помочь вам с выбором оборудования.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Адрес</h3>
+                        <p>г. Симферополь, ул. Пушкина, д. 15</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Телефон</h3>
+                        <p>+7 (978) 123-45-67</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>info@StageNotUsed.ru</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Режим работы</h3>
+                        <p>Пн-Пт: 9:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback" class="feedback">
+        <div class="container">
+            <h2 class="section-title">Обратная связь</h2>
+            <div class="feedback-content">
+                <p>Мы всегда рады получить отзывы о нашей работе и предложения по улучшению сервиса. Пожалуйста, заполните форму ниже, и мы обязательно рассмотрим ваше обращение.</p>
+                <form id="feedback-form">
+                    <div class="form-group">
+                        <label for="feedback-name">Ваше имя</label>
+                        <input type="text" id="feedback-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-email">Email</label>
+                        <input type="email" id="feedback-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-phone">Телефон</label>
+                        <input type="tel" id="feedback-phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-message">Сообщение</label>
+                        <textarea id="feedback-message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">StageNotUsed</div>
+                <ul class="footer-links">
+                    <li><a href="#" data-target="home">Бренды</a></li>
+                    <li><a href="#" data-target="catalog">Каталог</a></li>
+                    <li><a href="#" data-target="about">О нас</a></li>
+                    <li><a href="#" data-target="contacts">Контакты</a></li>
+                    <li><a href="#" data-target="feedback">Обратная связь</a></li>
+                </ul>
+                
+                <div class="social-links">
+                    <a href="https://vk.com" target="_blank" class="social-link vk">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                    <a href="https://telegram.org" target="_blank" class="social-link telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://avito.ru" target="_blank" class="social-link avito">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                
+                <p class="copyright">© 2025 StageNotUsed. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2 id="modal-product-title">Название товара</h2>
+            
+            <div class="image-carousel">
+                <div class="carousel-container">
+                </div>
+                <button class="carousel-btn carousel-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn carousel-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="carousel-indicators">
+                </div>
+            </div>
+            
+            <p id="modal-product-desc" class="product-desc"></p>
+            
+            <div class="tabs">
+                <div class="tab active" data-tab="specs">Характеристики</div>
+                <div class="tab" data-tab="color">Цвет</div>
+                <div class="tab" data-tab="gobo">Гобо</div>
+                <div class="tab" data-tab="frame">Обрамление</div>
+                <div class="tab" data-tab="video">Видео</div>
+                <div class="tab" data-tab="downloads">Документация</div>
+            </div>
+            
+            <div id="specs-content" class="tab-content active">
+                <h3>Характеристики</h3>
+                <div id="modal-product-specs">
+                </div>
+            </div>
+            
+            <div id="color-content" class="tab-content">
+                <h3>Цвет</h3>
+                <div id="modal-product-color">
+                </div>
+            </div>
+            
+            <div id="gobo-content" class="tab-content">
+                <h3>Гобо</h3>
+                <div id="modal-product-gobo">
+                </div>
+            </div>
+            
+            <div id="frame-content" class="tab-content">
+                <h3>Обрамление</h3>
+                <div id="modal-product-frame">
+                </div>
+            </div>
+            
+            <div id="video-content" class="tab-content">
+                <h3>Видео</h3>
+                <div id="modal-product-video">
+                </div>
+            </div>
+            
+            <div id="downloads-content" class="tab-content">
+                <h3>Документация</h3>
+                <div id="modal-product-downloads">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2>Оформление заказа</h2>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="order-name">Фамилия и Имя *</label>
+                    <input type="text" id="order-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="order-phone">Номер телефона *</label>
+                    <input type="tel" id="order-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="order-email">Email</label>
+                    <input type="email" id="order-email">
+                </div>
+                <div class="form-group">
+                    <label for="order-product">Товар</label>
+                    <input type="text" id="order-product" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="order-comment">Комментарий к заказу</label>
+                    <textarea id="order-comment"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить заказ</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
