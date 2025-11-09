@@ -1,7 +1,7 @@
 /* Все стили остаются без изменений */
         @font-face {
         font-family: 'Uncage';
-        src: url('/fonts/UNCAGE-Medium.otf') format('truetype');
+        src: url('./fonts/UNCAGE-Medium.otf') format('truetype');
         font-weight: 700;
         font-style: normal;
         font-display: swap;
@@ -1088,4 +1088,5 @@
             .image-carousel {
                 height: 200px;
             }
+
         }
